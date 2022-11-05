@@ -1,15 +1,15 @@
 
 import './App.css';
-import AllCameras from './AllCameras';
-// import Camera from './Camera';
+// import AllCameras from './AllCameras';
+import Camera from './Camera';
 
 function App() {
   return (
     <div className="App">
 
-<AllCameras/>
+{/* <AllCameras/> */}
 
-{/* <Camera/> */}
+<Camera/>
 
     </div>
   );
