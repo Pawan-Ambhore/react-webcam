@@ -70,3 +70,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 //
+Installation
+# with npm
+npm install react-webcam
+
+# with yarn
+yarn add react-webcam
+
+// 
+Usage
+import React from "react";
+import Webcam from "react-webcam";
+
+const WebcamComponent = () => <Webcam />;
